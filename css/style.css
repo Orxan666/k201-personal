@@ -1,0 +1,59 @@
+#econom .boxes {
+  margin: 40px 0;
+  padding: 3rem 0;
+  background-color: rgb(193, 191, 191);
+}
+#econom .boxes .box {
+  text-align: center;
+  padding: 5rem 0;
+  margin: 0%;
+  transform: scale(1);
+  transition: 0.3s ease-in;
+}
+#econom .boxes .box:hover {
+  color: white;
+  transform: scale(1.2);
+  background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+}
+#econom .boxes .box:hover .bottom-part h2 {
+  display: none;
+}
+#econom .boxes .box:hover .bottom-part a {
+  display: block;
+}
+#econom .boxes .box h1 {
+  border: 20px solid rgb(255, 255, 255);
+  border-radius: 50%;
+  padding: 20px;
+  display: inline-block;
+}
+#econom .boxes .box .bottom-part {
+  text-align: center;
+  position: relative;
+}
+#econom .boxes .box .bottom-part h2 {
+  display: block;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#econom .boxes .box .bottom-part a {
+  position: absolute;
+  top: 0%;
+  left: 10%;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  display: none;
+  background-color: #fff;
+  color: #222;
+  padding: 20px 10px;
+  text-decoration: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+}
+#econom .boxes .box ul li {
+  margin: 15px 0;
+  padding: 10px 0;
+  border-bottom: 1px solid white;
+}/*# sourceMappingURL=style.css.map */
